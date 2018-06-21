@@ -1,6 +1,10 @@
 #host=$(ssh -i cliente ubuntu@192.168.0.101 'hostname')
 host=`ssh -i /home/$USER/cliente ubuntu@$1 'hostname'`
 
+echo "Informe seu E-mail: "
+read email
+echo "Digite a senha: "
+read senha
 
 nomeT=$(($(echo $host | wc -c)-1+27))
 Tam=0
@@ -29,11 +33,11 @@ cat tempTop | sed '1,6d' | sed 's/^ *//' | sed 's/ * /;/g' | awk -F";" '{printf 
 echo "CPU Livre - $(ssh -i cliente ubuntu@$1 'top -bn1' | grep Cpu | awk -F"," '{print $7"."$8}') | cut -d" " -f 2) %" >> ~/$host
 
 cat ~/$host
-java MonitorizacaoJ andersofelipe.moral14@gmail.com 145236987 $(cat ~/monitorizacao/$host)
+java -jar Monitorizacao.jar $email $senha $host
 
 echo "Digite os PID's que desejar eliminar ou 0 para sair"
 read PID
 
 if [ $PID != 0 ] then
-	ssh -i cliente ubuntu@$1 'kill $PID'
+	ssh -i cliente ubuntu@$1 'sudo kill $PID'
 fi

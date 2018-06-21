@@ -1,0 +1,172 @@
+top - 21:33:50 up  7:38,  1 user,  load average: 1,28, 0,39, 0,16
+Tarefas: 165 total,   1 executando, 164 dormindo,   0 parado,   0 zumbi
+%Cpu(s):  6,8 us,  0,6 sy,  0,0 ni, 92,4 id,  0,2 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  1009376 total,    95912 free,   694100 used,   219364 buff/cache
+KiB Swap:  1046524 total,   922876 free,   123648 used.   140252 avail Mem 
+
+  PID USUÁRIO  PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+    7 root      20   0       0      0      0 S  6,2  0,0   0:01.45 ksoftirqd/0
+10188 ubuntu    20   0   48948   3636   3064 R  6,2  0,4   0:00.03 top
+    1 root      20   0  119808   5100   3448 S  0,0  0,5   0:06.97 systemd
+    2 root      20   0       0      0      0 S  0,0  0,0   0:00.01 kthreadd
+    4 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 kworker/0:0H
+    6 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 mm_percpu_wq
+    8 root      20   0       0      0      0 S  0,0  0,0   0:03.06 rcu_sched
+    9 root      20   0       0      0      0 S  0,0  0,0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0,0  0,0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0,0  0,0   0:00.26 watchdog/0
+   12 root      20   0       0      0      0 S  0,0  0,0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 netns
+   15 root      20   0       0      0      0 S  0,0  0,0   0:00.02 khungtaskd
+   16 root      20   0       0      0      0 S  0,0  0,0   0:00.00 oom_reaper
+   17 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 writeback
+   18 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kcompactd0
+   19 root      25   5       0      0      0 S  0,0  0,0   0:00.00 ksmd
+   20 root      39  19       0      0      0 S  0,0  0,0   0:00.00 khugepaged
+   21 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 crypto
+   22 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 kintegrityd
+   23 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 kblockd
+   24 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 ata_sff
+   25 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 md
+   26 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 edac-poller
+   27 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 devfreq_wq
+   28 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 watchdogd
+   32 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kauditd
+   33 root      20   0       0      0      0 S  0,0  0,0   0:01.13 kswapd0
+   34 root      20   0       0      0      0 S  0,0  0,0   0:00.00 ecryptfs-kt+
+   76 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 kthrotld
+   77 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 acpi_therma+
+   78 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_0
+   79 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 scsi_tmf_0
+   80 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_1
+   81 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 scsi_tmf_1
+   87 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 ipv6_addrco+
+  112 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 charger_man+
+  162 root       0 -20       0      0      0 S  0,0  0,0   0:00.55 kworker/0:1H
+  163 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_2
+  164 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 scsi_tmf_2
+  188 root      20   0       0      0      0 S  0,0  0,0   0:00.18 jbd2/sda1-8
+  189 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 ext4-rsv-co+
+  221 root      20   0   28452   3040   2800 S  0,0  0,3   0:02.60 systemd-jou+
+  244 root      20   0   45776   2220   2008 S  0,0  0,2   0:00.51 systemd-ude+
+  313 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 iprt-VBoxWQ+
+  317 systemd+  20   0  102384   2116   1968 S  0,0  0,2   0:00.27 systemd-tim+
+  318 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 ttm_swap
+  601 root      20   0  298916   7296   6760 S  0,0  0,7   0:01.42 accounts-da+
+  606 root      20   0    4396   1128   1080 S  0,0  0,1   0:00.19 acpid
+  607 root      20   0  100300   3248   3056 S  0,0  0,3   0:00.06 cupsd
+  609 message+  20   0   44300   4116   2760 S  0,0  0,4   0:10.76 dbus-daemon
+  640 root      20   0  389832   9200   7168 S  0,0  0,9   0:06.80 NetworkMana+
+  642 syslog    20   0  256392   1924   1872 S  0,0  0,2   0:00.65 rsyslogd
+  648 root      20   0   28624   2660   2472 S  0,0  0,3   0:01.49 systemd-log+
+  657 root      20   0   36076   2240   2116 S  0,0  0,2   0:00.08 cron
+  663 avahi     20   0   45028   2980   2648 S  0,0  0,3   0:06.65 avahi-daemon
+  668 root      20   0  213460   2756    540 S  0,0  0,3   0:00.58 snapd
+  730 lp        20   0   81244   2556   2556 S  0,0  0,3   0:00.01 dbus
+  731 lp        20   0   81244   2504   2504 S  0,0  0,2   0:00.00 dbus
+  732 lp        20   0   81244   2432   2432 S  0,0  0,2   0:00.01 dbus
+  733 lp        20   0   81244   2580   2580 S  0,0  0,3   0:00.01 dbus
+  734 lp        20   0   81244   2580   2580 S  0,0  0,3   0:00.01 dbus
+  735 lp        20   0   81244   2544   2544 S  0,0  0,3   0:00.00 dbus
+  736 lp        20   0   81244   2472   2472 S  0,0  0,2   0:00.00 dbus
+  737 lp        20   0   81244   2580   2580 S  0,0  0,3   0:00.01 dbus
+  738 lp        20   0   81244   2536   2536 S  0,0  0,3   0:00.00 dbus
+  739 lp        20   0   81244   2380   2380 S  0,0  0,2   0:00.00 dbus
+  763 avahi     20   0   44784     64      0 S  0,0  0,0   0:00.00 avahi-daemon
+  764 root      20   0  274812   4612   4344 S  0,0  0,5   0:00.43 cups-browsed
+  770 root      20   0  304636   9552   7360 S  0,0  0,9   0:18.13 polkitd
+  777 root      20   0   65508   3876   3160 S  0,0  0,4   0:00.27 sshd
+  797 root      20   0  292200   6984   6540 S  0,0  0,7   0:00.20 lightdm
+  811 root      20   0  426604  54820  18900 S  0,0  5,4   3:46.76 Xorg
+  832 nobody    20   0   59992   2700   2568 S  0,0  0,3   0:00.48 dnsmasq
+  919 whoopsie  20   0  452208   7776   6924 S  0,0  0,8   0:00.44 whoopsie
+  930 root      20   0   23004   1280   1280 S  0,0  0,1   0:00.00 agetty
+  952 snmp      20   0   66696   1916   1556 S  0,0  0,2   0:20.37 snmpd
+  990 root      20   0  230304   4632   4468 S  0,0  0,5   0:00.03 lightdm
+ 1063 rtkit     21   1  183544   2516   2516 S  0,0  0,2   0:00.57 rtkit-daemon
+ 1127 root      20   0  354540   6020   5520 S  0,0  0,6   0:01.04 upowerd
+ 1141 colord    20   0  321052   7492   6932 S  0,0  0,7   0:00.32 colord
+ 1192 felipe    20   0   45276   3436   2984 S  0,0  0,3   0:00.43 systemd
+ 1193 felipe    20   0  145352    516      0 S  0,0  0,1   0:00.00 (sd-pam)
+ 1239 felipe    20   0  212684   4784   4376 S  0,0  0,5   0:00.09 gnome-keyri+
+ 1243 felipe    20   0   53708   3548   2672 S  0,0  0,4   0:00.45 upstart
+ 1325 felipe    20   0   39996    100      0 S  0,0  0,0   0:00.06 upstart-ude+
+ 1329 felipe    20   0   43728   3296   2216 S  0,0  0,3   0:10.78 dbus-daemon
+ 1341 felipe    20   0   93412   3308   3180 S  0,0  0,3   0:00.04 window-stac+
+ 1377 felipe    20   0   39916    124      0 S  0,0  0,0   0:03.26 upstart-dbu+
+ 1379 felipe    20   0   39916    124      0 S  0,0  0,0   0:01.03 upstart-dbu+
+ 1383 felipe    20   0   48540   1332   1140 S  0,0  0,1   0:00.02 upstart-fil+
+ 1390 felipe    20   0  365728   7236   6296 S  0,0  0,7   0:03.52 ibus-daemon
+ 1391 felipe    20   0  533188  20312  16892 S  0,0  2,0   0:00.77 bamfdaemon
+ 1400 felipe    20   0  281872   4984   4632 S  0,0  0,5   0:00.08 gvfsd
+ 1405 felipe    20   0  419964   5904   5904 S  0,0  0,6   0:00.02 gvfsd-fuse
+ 1416 felipe    20   0  285020   6892   6584 S  0,0  0,7   0:00.02 ibus-dconf
+ 1419 felipe    20   0  353680   6836   6608 S  0,0  0,7   0:00.02 at-spi-bus-+
+ 1422 felipe    20   0  487692  20964  19036 S  0,0  2,1   0:00.61 ibus-ui-gtk3
+ 1428 felipe    20   0   42896   3004   2772 S  0,0  0,3   0:00.05 dbus-daemon
+ 1429 felipe    20   0  438008  17152  15956 S  0,0  1,7   0:00.13 ibus-x11
+ 1432 felipe    20   0  206972   4500   4372 S  0,0  0,4   0:00.08 at-spi2-reg+
+ 1445 felipe    20   0  209148   6608   6324 S  0,0  0,7   0:01.13 ibus-engine+
+ 1450 felipe    20   0  173972    276    128 S  0,0  0,0   0:01.36 gpg-agent
+ 1460 felipe    20   0  654144  14368  12140 S  0,0  1,4   0:00.30 hud-service
+ 1462 felipe    20   0  872564  21296  17980 S  0,0  2,1   0:02.21 unity-setti+
+ 1478 felipe    20   0  560580  12132  11292 S  0,0  1,2   0:00.57 gnome-sessi+
+ 1490 felipe    20   0  648368  25048  19800 S  0,0  2,5   0:18.12 unity-panel+
+ 1507 felipe    20   0  377616   7252   6804 S  0,0  0,7   0:00.25 indicator-m+
+ 1508 felipe    20   0  356588   6164   6164 S  0,0  0,6   0:00.01 indicator-b+
+ 1513 felipe    20   0  367244   7176   6528 S  0,0  0,7   0:00.20 indicator-p+
+ 1515 felipe    20   0  788772   7876   6996 S  0,0  0,8   0:00.66 indicator-d+
+ 1517 felipe    20   0  724948  18336  16808 S  0,0  1,8   0:00.23 indicator-k+
+ 1518 felipe    20   0  757116   8200   7636 S  0,0  0,8   0:00.35 indicator-s+
+ 1521 felipe    20   0  557660  17828  16628 S  0,0  1,8   0:00.14 indicator-p+
+ 1525 felipe    20   0  643868   7200   6500 S  0,0  0,7   0:00.64 indicator-s+
+ 1533 felipe    20   0  476880  10700  10408 S  0,0  1,1   0:09.87 indicator-a+
+ 1562 felipe    20   0  925204  11460  11424 S  0,0  1,1   0:00.19 evolution-s+
+ 1565 felipe     9 -11  442372   5344   4300 S  0,0  0,5   0:00.34 pulseaudio
+ 1585 felipe    20   0  178664   4504   4076 S  0,0  0,4   0:00.10 dconf-servi+
+ 1612 felipe    20   0 1306516 142816  23600 S  0,0 14,1  54:27.42 compiz
+ 1635 felipe    20   0  877532  31456  11656 S  0,0  3,1   0:00.40 evolution-c+
+ 1639 felipe    20   0  439400  17096  16588 S  0,0  1,7   0:00.37 polkit-gnom+
+ 1640 felipe    20   0  748680  67752  16456 S  0,0  6,7   0:02.78 gnome-softw+
+ 1642 felipe    20   0  607988  24068  20272 S  0,0  2,4   0:10.96 nm-applet
+ 1652 felipe    20   0  584732  18612  15188 S  0,0  1,8   0:00.22 unity-fallb+
+ 1656 felipe    20   0  829576  36772  27284 S  0,0  3,6   0:03.82 nautilus
+ 1668 felipe    20   0  303880   7808   6512 S  0,0  0,8   0:00.48 gvfs-udisks+
+ 1671 root      20   0  382312   8208   6504 S  0,0  0,8   0:00.42 udisksd
+ 1676 root      20   0  635324  29092   5596 S  0,0  2,9   0:01.53 fwupd
+ 1687 felipe    20   0  410960   6540   5516 S  0,0  0,6   0:00.02 gvfs-afc-vo+
+ 1693 felipe    20   0  266844   3628   3224 S  0,0  0,4   0:00.01 gvfs-mtp-vo+
+ 1698 felipe    20   0  264880   4836   4344 S  0,0  0,5   0:00.00 gvfs-goa-vo+
+ 1703 felipe    20   0  279040   4112   3600 S  0,0  0,4   0:00.01 gvfs-gphoto+
+ 1713 felipe    20   0  822220  43440   6656 S  0,0  4,3   0:00.53 evolution-c+
+ 1723 felipe    20   0  814796  43024   6264 S  0,0  4,3   0:00.52 evolution-c+
+ 1726 felipe    20   0  705036   9576   6708 S  0,0  0,9   0:00.07 evolution-a+
+ 1739 felipe    20   0  788776   9332   6492 S  0,0  0,9   0:00.43 evolution-a+
+ 1753 felipe    20   0  371232   7384   6392 S  0,0  0,7   0:00.13 gvfsd-trash
+ 1807 felipe    20   0  670320  27172  19816 S  0,0  2,7   0:05.39 gnome-termi+
+ 1813 felipe    20   0   29692   3652   1844 S  0,0  0,4   0:00.38 bash
+ 1824 felipe    20   0  424220  14096  11868 S  0,0  1,4   0:00.69 zeitgeist-d+
+ 1831 felipe    20   0    4504    604    532 S  0,0  0,1   0:00.00 sh
+ 1835 felipe    20   0  423436   7080   5944 S  0,0  0,7   0:00.38 zeitgeist-d+
+ 1843 felipe    20   0  321316   8096   5820 S  0,0  0,8   0:00.07 zeitgeist-f+
+ 1890 felipe    20   0  608016  23120  19080 S  0,0  2,3   0:01.07 update-noti+
+ 1943 felipe    20   0  448876   7756   6732 S  0,0  0,8   0:00.41 deja-dup-mo+
+ 2328 felipe    20   0  499688  25252  19880 S  0,0  2,5   0:05.98 notify-osd
+ 6984 root      20   0   16124   2476   1616 S  0,0  0,2   0:00.01 dhclient
+ 7390 root      20   0       0      0      0 S  0,0  0,0   0:00.33 kworker/u2:2
+ 7453 root      20   0       0      0      0 S  0,0  0,0   0:01.28 kworker/0:1
+ 9467 root      20   0       0      0      0 S  0,0  0,0   0:00.03 kworker/0:0
+ 9747 root      20   0       0      0      0 S  0,0  0,0   0:00.11 kworker/u2:0
+ 9798 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kworker/u2:1
+ 9800 felipe    20   0 2172004 199764  92748 S  0,0 19,8   0:08.52 firefox
+ 9854 felipe    20   0 1954384 149364  85924 S  0,0 14,8   0:01.97 Web Content
+ 9950 felipe    20   0 1787720  86980  66884 S  0,0  8,6   0:00.47 Web Content
+10039 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kworker/0:2
+10044 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kworker/0:3
+10046 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kworker/0:4
+10084 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kworker/0:5
+10154 root      20   0   94892   6740   5804 S  0,0  0,7   0:00.01 sshd
+10160 ubuntu    20   0   45276   4656   3960 S  0,0  0,5   0:00.01 systemd
+10161 ubuntu    20   0  145352   1812      0 S  0,0  0,2   0:00.00 (sd-pam)
+10187 ubuntu    20   0   94892   3228   2292 S  0,0  0,3   0:00.00 sshd

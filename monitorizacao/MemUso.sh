@@ -1,6 +1,10 @@
 #host=$(ssh -i cliente ubuntu@192.168.0.101 'hostname')
 host=`ssh -i cliente ubuntu@$1 'hostname'`
 
+echo "Informe seu E-mail: "
+read email
+echo "Digite a senha: "
+read senha
 
 nomeT=$(($(echo $host | wc -c)-1+27))
 Tam=0
@@ -37,12 +41,12 @@ echo "Mem em uso - $(perl -e "print $memU/1000000") GB" >> $host
 echo "Mem em uso % - $(perl -e "print $memU/$memT*100")%" >> $host
 
 cat $host
-java -jar Monitorizacao.jar andersonfelipe.moral14@gmail.com 145236987 $host
+java -jar Monitorizacao.jar $email $senha $host
 
 echo "Digite os PID's que desejar eliminar com espaço entre eles ou 0 para sair"
 read PID
 
 if [ $PID != 0 ]
 then
-	ssh -i cliente ubuntu@$1 'kill $PID'
+	ssh -i cliente ubuntu@$1 'sudo kill $PID'
 fi
